@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "calviquiz",
+    "name": "Calviquiz",
     "slug": "calviquiz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#5068A9"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
