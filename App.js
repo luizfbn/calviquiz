@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import AppLoading from 'expo-app-loading'
 import { StatusBar } from 'react-native'
 import { Merriweather_400Regular, Merriweather_700Bold, useFonts } from '@expo-google-fonts/merriweather'
@@ -11,7 +11,13 @@ export default function App() {
 		Merriweather_700Bold,
 	})
 
-	if (!fontsLoaded) {
+	const [isReady, setIsReady] = useState(false)
+
+	useEffect(()=>{
+		setTimeout(()=>{ setIsReady(true) }, 3000)
+	}, [fontsLoaded])
+
+	if (!fontsLoaded || !isReady) {
 		return <AppLoading />
 	}
 
