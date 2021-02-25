@@ -7,9 +7,7 @@ App to check your baldness level through a quiz.
 - React native
 - Expo
 
-![CalviQuizSplash](github-assets/calviquiz_splash.png)
-
-![CalviQuizGif](github-assets/calviquiz_gif.gif)
+![CalviQuizSplash](github-assets/calviquiz_splash.png) ![CalviQuizGif](github-assets/calviquiz_gif.gif)
 
 ## Setup
 
