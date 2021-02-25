@@ -21,5 +21,5 @@ Finally, run :
 ```
 expo start
 ```
-<br/><br/><br/><br/><br/>
+<br/><br/>
 *Thanks to @luisacro for helping with UI/UX design*
